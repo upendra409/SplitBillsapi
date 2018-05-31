@@ -57,8 +57,6 @@ namespace SplitBillsapi.Helpers
 
         private async Task<List<Currency>> CreateCurrencyConverterAPI()
         {
-            //Console.WriteLine
-            //dummy comment
             List<Currency> currencies = new List<Currency>();
             using (var client = new HttpClient())
             {
