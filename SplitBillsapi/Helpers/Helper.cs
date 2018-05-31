@@ -13,7 +13,6 @@ namespace SplitBillsapi.Helpers
 {
     public class Helper
     {
-        //
         private IConfiguration _configuration;
         string apiKey = string.Empty;
         public Helper(IConfiguration configuration)
