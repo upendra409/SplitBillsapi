@@ -31,6 +31,7 @@ namespace SplitBillsapi.Helpers
                 if (participant.TransactionType.Equals("Paid"))
                 {
                     baseCurrency = participant.Currency;
+                    //
                     break;
                 }
             }
